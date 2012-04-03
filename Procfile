@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* HelloWorld
+java -cp target/classes:"target/dependency/*" com.chandankumar.ckjapp.HelloWorld
