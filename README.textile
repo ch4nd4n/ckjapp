@@ -1,0 +1,12 @@
+h1. ckjapp
+
+h.5 By Chandan Kumar
+
+This is a simple app, rather my Java experiments with heroku. I am planning to create tags at various points to be able to bookmark important changes.
+
+h2. Demo
+You can check the demo at ck-japp.herokuapp.com
+
+h2. Update
+* Added hello world example cited at https://devcenter.heroku.com/articles/java
+
