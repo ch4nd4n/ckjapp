@@ -10,14 +10,6 @@ public class HelloWorld extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        System.out.println(req);
-        System.out.println(new Date());
-        try{
-          Thread.currentThread().sleep(5000);
-        }catch(Exception e)
-        {System.out.println("I still failed");}
-        System.out.println(req + " over");
-        System.out.println(new Date());
         resp.getWriter().print("Hello from Java!\n");
     }
 
