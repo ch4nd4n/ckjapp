@@ -1,8 +1,10 @@
-h1. ckjapp
+h1. CkJApp
 
 h5. By "Chandan Kumar":http://chandankumar.com
 
 This is a simple app, rather my Java experiments with heroku. I am planning to create tags at various points to be able to bookmark important changes.
+
+Spring Hibernate template replicated from github "template-spring-hibernate":https://github.com/jsimone/template-spring-hibernate
 
 h2. Demo
 
@@ -10,5 +12,5 @@ You can check the "demo":http://ck-japp.herokuapp.com
 
 h2. Update
 
-* Added hello world example "cited at":https://devcenter.heroku.com/articles/java
-
+* implemented hello world example "cited at":https://devcenter.heroku.com/articles/java can be found at tag v0.1
+* Added integration to spring, hibernate and sitemesh.
