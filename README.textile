@@ -12,5 +12,5 @@ You can check the "demo":http://ck-japp.herokuapp.com
 
 h2. Update
 
-* implemented hello world example "cited at":https://devcenter.heroku.com/articles/java can be found at tag v0.1
+* implemented hello world example "cited at":https://devcenter.heroku.com/articles/java can be found in "tags":https://github.com/ch4nd4n/ckjapp/tags v0.1
 * Added integration to spring, hibernate and sitemesh.
