@@ -16,7 +16,7 @@ h2. Running the app locally
 
 To run the application locally, issue following from the root
 
-    java -jar target/dependency/jetty-runner.jar --port 8080 target/*.war
+bc. java -jar target/dependency/jetty-runner.jar --port 8080 target/*.war
 
 h2. Update
 
