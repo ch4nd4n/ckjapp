@@ -2,15 +2,24 @@ h1. CkJApp
 
 h5. By "Chandan Kumar":http://chandankumar.com
 
-This is a simple app, rather my Java experiments with heroku. I am planning to create tags at various points to be able to bookmark important changes.
+This is a simple app, rather my Java experiments with heroku.
+I am planning to create tags at various points to be able to bookmark important changes.
 
-Spring Hibernate template replicated from github "template-spring-hibernate":https://github.com/jsimone/template-spring-hibernate
+Spring Hibernate template replicated from github 
+"template-spring-hibernate":https://github.com/jsimone/template-spring-hibernate
 
 h2. Demo
 
 You can check the "demo":http://ck-japp.herokuapp.com
 
+h2. Running the app locally
+
+To run the application locally, issue following from the root
+
+    java -jar target/dependency/jetty-runner.jar --port 8080 target/*.war
+
 h2. Update
 
-* implemented hello world example "cited at":https://devcenter.heroku.com/articles/java can be found in "tags":https://github.com/ch4nd4n/ckjapp/tags v0.1
+* implemented hello world example "cited at":https://devcenter.heroku.com/articles/java 
+  can be found in "tags":https://github.com/ch4nd4n/ckjapp/tags v0.1
 * Added integration to spring, hibernate and sitemesh.
